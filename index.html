@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centrowanie Obrazka</title>
+    <style>
+        .center-image {
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 300px; /* Możesz zmienić tę wartość na dowolną inną */
+        }
+    </style>
+</head>
+<body>
+<h1 style="text-align: center;"> Galeria 001</h1>
+<h2 style="text-align: center;"> wyprawy rowerowe</h2>
+<img src="file:///C:/Users/3C_1/Desktop/galeria_001/logo%20with%20the%20theme%20of%20bicycle%20tours.png" alt="Opis obrazka" class="center-image">
+	
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obrazy obok siebie</title>
+    <style>
+        .image-container {
+            display: flex;
+            justify-content: center; /* Wyrównanie poziome */
+			margin-top: 400px;
+        }
+        .image-container img {
+            margin: 10px; /* Odstęp między obrazkami */
+            max-width: 200px; /* Maksymalna szerokość obrazka */
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="file:///C:/Users/3C_1/Desktop/galeria_001/img/a.jpg" alt="Opis obrazka 1">
+        <img src="file:///C:/Users/3C_1/Desktop/galeria_001/img/d.jpg" alt="Opis obrazka 2">
+        <img src="file:///C:/Users/3C_1/Desktop/galeria_001/img/f.jpg" alt="Opis obrazka 3">
+		<img src="file:///C:/Users/3C_1/Desktop/galeria_001/img/h.jpg" alt="Opis obrazka 4">
+		<img src="file:///C:/Users/3C_1/Desktop/galeria_001/img/i.jpg" alt="Opis obrazka 5">
+    </div>
+</body>
+</html>
